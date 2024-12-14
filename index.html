@@ -11,9 +11,7 @@
 
   </head>
   <body>
-  <div class="text-container">
-    Bubbles
-  </div>
+    <img src="Homepage_mesh.png" id="foregroundImage" alt="Foreground Image" />
   <div class="gradient-bg">
     <svg xmlns="http://www.w3.org/2000/svg">
       <defs>
@@ -32,7 +30,18 @@
       <div class="g5"></div>
       <div class="interactive"></div>
     </div>
+    
   </div>
+  <div id="noiseLayer"></div>
+  <svg  viewBox="0 0 500 500"  preserveAspectRatio="none"  xmlns="http://www.w3.org/2000/svg" style="display: none" >
+  <filter id="noiseFilter">
+      <feTurbulence
+      type="fractalNoise"
+      baseFrequency=".75"
+      numOctaves="8"
+      stitchTiles="stitch"  />
+  </filter>
+  </svg>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
