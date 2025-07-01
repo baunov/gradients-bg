@@ -1,0 +1,56 @@
+[33mcommit b663df17ba8c22d54d6fe4a968068741a30d0449[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: LeoTheAlcaraz <leodalcarazjr@iskolarngbayan.pup.edu.ph>
+Date:   Thu Jun 26 14:20:41 2025 +0800
+
+    nazi
+
+[33mcommit 55ff7f2515940b43773cae0524c6cfb3f1635448[m
+Author: ronliwag <roncorwinrliwag@gmail.com>
+Date:   Thu Jun 26 11:06:56 2025 +0800
+
+    donate
+
+[33mcommit 9034b4c853a130d81d567e9844a3b24f5e3ac1ac[m
+Author: ronliwag <roncorwinrliwag@gmail.com>
+Date:   Thu Jun 26 00:50:03 2025 +0800
+
+    basebg
+
+[33mcommit 9350d5f5e77ef05ed6269d8e6a7cc125b44f7f29[m
+Author: ronliwag <roncorwinrliwag@gmail.com>
+Date:   Thu Jun 26 00:37:15 2025 +0800
+
+    bg
+
+[33mcommit fb1566df105933e243802765fc537dc8f9c51184[m
+Merge: dd3e6cf 60022f4
+Author: Daniil Baunov <daniil@baunov.io>
+Date:   Sat Dec 14 14:09:59 2024 +0500
+
+    Merge pull request #4 from juji/main
+    
+    fix firefox
+
+[33mcommit 60022f4d713d5c2747ce4a11860db0eaecb5a6a7[m
+Author: juji <him@jujiyangasli.com>
+Date:   Sat Dec 14 11:17:32 2024 +0700
+
+    fix firefox
+
+[33mcommit dd3e6cfe899260abf27a9e568256d5ff07d496f6[m
+Author: Daniil Baunov <daniil@baunov.io>
+Date:   Sun Jul 9 10:59:09 2023 +0600
+
+    Update README.md
+
+[33mcommit 66596a18496f09d502dd96744127082bc9072de8[m
+Author: Daniil Baunov <daniil@baunov.io>
+Date:   Sun Jul 9 10:58:22 2023 +0600
+
+    Update README.md
+
+[33mcommit 9fead3c7bbeec5c47cc1dd0598e7c312431e8ebe[m
+Author: Daniil Baunov <daniil@baunov.io>
+Date:   Sun Jul 9 10:55:19 2023 +0600
+
+    initial commit
