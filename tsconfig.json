@@ -8,7 +8,6 @@
       "DOM"
     ],
     "jsx": "react-jsx",
-    "moduleResolution": "Node",
     "strict": true,
     "resolveJsonModule": true,
     "isolatedModules": true,

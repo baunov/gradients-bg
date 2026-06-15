@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --color-bg1: rgb(108, 0, 162);
-  --color-bg2: rgb(0, 17, 82);
-  --color1: 18, 113, 255;
-  --color2: 221, 74, 255;
-  --color3: 100, 220, 255;
-  --color4: 200, 50, 50;
-  --color5: 180, 180, 50;
-  --color-interactive: 140, 100, 255;
+  --color-bg1: rgb(112, 33, 151);
+  --color-bg2: rgb(2, 12, 53);
+  --color1: 154, 217, 228;
+  --color2: 211, 105, 193;
+  --color3: 96, 190, 221;
+  --color4: 224, 79, 79;
+  --color5: 247, 243, 49;
+  --color-interactive: 255, 255, 255;
   --circle-size: 80%;
   --blending: hard-light;
 }
@@ -110,7 +110,7 @@ body {
   background: radial-gradient(circle at center, rgba(var(--color1), 0.8) 0, rgba(var(--color1), 0) 50%) no-repeat;
   transform-origin: center center;
   animation: moveVertical 30s ease infinite;
-  opacity: 1;
+  opacity: .15;
 }
 
 .gradient-bg .g2 {
@@ -121,7 +121,7 @@ body {
   background: radial-gradient(circle at center, rgba(var(--color2), 0.8) 0, rgba(var(--color2), 0) 50%) no-repeat;
   transform-origin: calc(50% - 400px);
   animation: moveInCircle 20s reverse infinite;
-  opacity: 1;
+  opacity: .15;
 }
 
 .gradient-bg .g3 {
@@ -132,7 +132,7 @@ body {
   background: radial-gradient(circle at center, rgba(var(--color3), 0.8) 0, rgba(var(--color3), 0) 50%) no-repeat;
   transform-origin: calc(50% + 400px);
   animation: moveInCircle 40s linear infinite;
-  opacity: 1;
+  opacity: .15;
 }
 
 .gradient-bg .g4 {
@@ -143,7 +143,7 @@ body {
   background: radial-gradient(circle at center, rgba(var(--color4), 0.8) 0, rgba(var(--color4), 0) 50%) no-repeat;
   transform-origin: calc(50% - 200px);
   animation: moveHorizontal 40s ease infinite;
-  opacity: 0.7;
+  opacity: 0.15;
 }
 
 .gradient-bg .g5 {
@@ -154,7 +154,7 @@ body {
   background: radial-gradient(circle at center, rgba(var(--color5), 0.8) 0, rgba(var(--color5), 0) 50%) no-repeat;
   transform-origin: calc(50% - 800px) calc(50% + 200px);
   animation: moveInCircle 20s ease infinite;
-  opacity: 1;
+  opacity: 0.15;
 }
 
 .gradient-bg .interactive {
@@ -163,5 +163,5 @@ body {
   top: -50%;
   left: -50%;
   background: radial-gradient(circle at center, rgba(var(--color-interactive), 0.8) 0, rgba(var(--color-interactive), 0) 50%) no-repeat;
-  opacity: 0.7;
+  opacity: 0.15;
 }

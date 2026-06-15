@@ -19,7 +19,6 @@ function App() {
     const move = () => {
       curX += (tgX - curX) / 20
       curY += (tgY - curY) / 20
-
       interBubble.style.transform = `translate(${Math.round(curX)}px, ${Math.round(curY)}px)`
       animationFrameId = window.requestAnimationFrame(move)
     }
@@ -45,14 +44,11 @@ function App() {
       <main className="relative z-10 flex min-h-screen items-center justify-center p-6 sm:p-10">
         <section className="flex max-w-3xl flex-col items-center gap-5 text-center">
           <p className="rounded-full border border-white/15 bg-white/10 px-4 py-1 text-xs font-medium uppercase tracking-[0.35em] text-white/75 backdrop-blur-sm">
-            Animated Gradient Study
+            Animated BG Test
           </p>
           <h1 className="text-[clamp(4rem,12vw,8rem)] font-black leading-none tracking-tight drop-shadow-[0_10px_40px_rgba(0,0,0,0.24)]">
             Bubbles
           </h1>
-          <p className="max-w-xl text-sm leading-6 text-white/78 sm:text-base">
-            React owns the structure, Tailwind handles the layout, and the custom blur field keeps the original motion intact.
-          </p>
         </section>
       </main>
 
